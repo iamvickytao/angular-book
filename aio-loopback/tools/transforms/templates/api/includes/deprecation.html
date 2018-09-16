@@ -1,0 +1,6 @@
+{% if doc.deprecated %}
+<section class="deprecated">
+  <h2 id="deprecation-notes">弃用说明</h2>
+  {$ doc.deprecated | marked $}
+</section>
+{% endif %}
