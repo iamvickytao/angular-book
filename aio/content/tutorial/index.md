@@ -5,7 +5,7 @@
 The _Tour of Heroes_ tutorial covers the fundamentals of Angular.  
 In this tutorial you will build an app that helps a staffing agency manage its stable of heroes.
 
-**英雄指南**教程涵盖了 Angular 的基本知识。在本教程中，你将构建一个应用，来帮助招聘机构管理一群英雄。
+**英雄指南**教程涵盖了 Angular 的基本知识。在本教程中，你将构建一个应用，帮助人力资源机构管理其稳定的英雄。
 
 This basic app has many of the features you'd expect to find in a data-driven application.
 It acquires and displays a list of heroes, edits a selected hero's detail, and navigates among different views of heroic data.
@@ -27,7 +27,7 @@ By the end of the tutorial you will be able to do the following:
 
 * Use one-way data binding for read-only data.
 
-   为只读数据使用单项数据绑定。
+   为只读数据使用单向数据绑定。
 
 * Add editable fields to update a model with two-way data binding.
 
@@ -39,7 +39,7 @@ By the end of the tutorial you will be able to do the following:
 
 * Enable users to select a hero from a master list and edit that hero in the details view. 
 
-   让用户可以在主列表中选择一个英雄，然后在详情视图中编辑他。
+   让用户可以在主列表中选择一个英雄，然后在详情页面中编辑他。
 
 * Format data with pipes.
 
@@ -51,7 +51,7 @@ By the end of the tutorial you will be able to do the following:
 
 * Use routing to navigate among different views and their components.
 
-   使用路由在不同的视图及其组件之间导航。
+   使用路由在不同的页面及其组件之间导航。
 
 You'll learn enough Angular to get started and gain confidence that
 Angular can do whatever you need it to do. 

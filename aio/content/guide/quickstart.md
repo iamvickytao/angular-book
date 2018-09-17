@@ -5,7 +5,7 @@
 Good tools make application development quicker and easier to maintain than
 if you did everything by hand.
 
-好的工具能让开发更加简单快捷。
+相比手工写代码，好的工具能让开发快捷，维护简单。
 
 The [**Angular CLI**](https://cli.angular.io/) is a **_command line interface_** tool
 that can create a project, add files, and perform a variety of ongoing development tasks such
@@ -18,7 +18,7 @@ application in TypeScript, using the Angular CLI
 while adhering to the [Style Guide](guide/styleguide) recommendations that
 benefit _every_ Angular project.
 
-本章的目标是构建并运行一个超级简单的 TypeScript Angular 应用。使用 Angular CLI 来让*每个* Angular 应用从[风格指南](guide/styleguide)的那些建议中获益。
+本章的目标是构建并运行一个超级简单的 TypeScript Angular 应用。使用Angular CLI，同时遵循[风格指南](guide/styleguide)建议，这对每个Angular项目都有好处。
 
 By the end of the chapter, you'll have a basic understanding of development with the CLI
 and a foundation for both these documentation samples and for real world applications.
@@ -82,7 +82,7 @@ Generate a new project and default app by running the following command:
 
 The Angular CLI installs the necessary npm packages, creates the project files, and populates the project with a simple default app. This can take some time.
 
-Angular CLI 会安装必要的 NPM 包、创建项目文件，并在该项目中生成一个简单的默认应用。这可能要花一点时间。
+新项目名字为“my-app”，Angular CLI 将会安装必要的 NPM 包、创建项目文件，并在该项目中生成一个简单的默认应用。这可能要花一点时间。
 
 <div class="alert is-helpful">
 
@@ -90,13 +90,13 @@ You can add pre-packaged functionality to a new project by using the `ng add` co
 For more information, see the [Angular CLI documentation.](https://github.com/angular/angular-cli/wiki/add "Angular CLI documentation") 
 
 你可以使用 `ng add` 命令往新项目中添加一些预先打包好的功能。
-`ng add` 命令会通过应用来自特定 NPM 包中的图纸（schematic）来转换此项目。
+`ng add` 命令会通过应用来自特定 NPM 包中的样式（schematic）来转换此项目。
 要了解更多，参见 [Angular CLI 文档](https://github.com/angular/angular-cli/wiki/add "Angular CLI documentation")。
 
 Angular Material provides schematics for typical app layouts. 
 See the [Angular Material documentation](https://material.angular.io/guides "Angular Material documentation") for details.
 
-比如 Angular Material 就为一些典型布局提供了图纸。参见 [Angular Material 文档](https://material.angular.io/guides "Angular Material documentation")。
+比如 Angular Material 就为一些典型布局提供了样式。参见 [Angular Material 文档](https://material.angular.io/guides "Angular Material documentation")。
 
 </div>
 
@@ -392,7 +392,7 @@ Any files outside of this folder are meant to support building your app.
 
       这个文件夹中包括为各个目标环境准备的文件，它们导出了一些应用中要用到的配置变量。
       这些文件会在构建应用时被替换。
-      比如你可能在生产环境中使用不同的 API 端点地址，或使用不同的统计 Token 参数。
+      比如你可能在不同的环境（开发和生产）中使用不同的 API 端点地址，或使用不同的统计 Token 参数。
       甚至使用一些模拟服务。
       所有这些，CLI 都替你考虑到了。
 
