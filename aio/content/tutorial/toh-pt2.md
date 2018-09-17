@@ -110,11 +110,11 @@ In this example
 
 * `heroes` is the list from the `HeroesComponent` class.
 
-   `heroes` 就是来自 `HeroesComponent` 类的列表。
+   `heroes` 就是来自 `HeroesComponent` 类的list属性变量。
 
 * `hero` holds the current hero object for each iteration through the list. 
 
-   当依次遍历这个列表时，`hero` 会为每个迭代保存当前的英雄对象。
+   当依次遍历这个属性变量时，`hero` 会为每个迭代保存当前的英雄对象。
 
 <div class="alert is-important">
 

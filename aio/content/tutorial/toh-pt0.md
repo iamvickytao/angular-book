@@ -36,13 +36,13 @@ You can add pre-packaged functionality to a new project by using the `ng add` co
 For more information, see the [Angular CLI documentation.](https://github.com/angular/angular-cli/wiki/add "Angular CLI documentation") 
 
 你可以使用 `ng add` 命令往新项目中添加一些预先打包好的功能。
-`ng add` 命令会通过应用来自特定 NPM 包中的图纸（schematic）来转换此项目。
+`ng add` 命令会通过应用来自特定 NPM 包中的样式（schematic）来转换此项目。
 要了解更多，参见 [Angular CLI 文档](https://github.com/angular/angular-cli/wiki/add "Angular CLI documentation")。
 
 Angular Material provides schematics for typical app layouts. 
 See the [Angular Material documentation](https://material.angular.io/guides "Angular Material documentation") for details.
 
-比如 Angular Material 就为一些典型布局提供了图纸。参见 [Angular Material 文档](https://material.angular.io/guides "Angular Material documentation")。
+比如 Angular Material 就为一些典型布局提供了样式。参见 [Angular Material 文档](https://material.angular.io/guides "Angular Material documentation")。
 
 </div>
 

@@ -287,7 +287,7 @@ Angular 需要知道如何把应用程序的各个部分组合到一起，以及
 Some of the metadata is in the `@Component` decorators that you added to your component classes.
 Other critical metadata is in [`@NgModule`](guide/ngmodules) decorators.
 
-有些元数据位于 `@Component` 装饰器中，你会把它加到组件类上。
+有些元数据位于 `@Component` 装饰器中，它就是你已经加到组件类上的。
 另一些关键性的元数据位于 [`@NgModule`](guide/ngmodules) 装饰器中。
 
 The most important `@NgModule` decorator annotates the top-level **AppModule** class.
